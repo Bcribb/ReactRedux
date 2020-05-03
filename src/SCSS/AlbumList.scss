@@ -1,0 +1,31 @@
+.AlbumList {
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 100%;
+
+    .Album {
+        margin-left: 5%;
+        margin-right: 5%;
+        overflow: hidden;
+        
+        .AlbumTitle {
+            float: left;
+            width: 80%;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .Author {
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .Album:Hover {
+        cursor: pointer;
+    }
+}
